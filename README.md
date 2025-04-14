@@ -2,7 +2,7 @@
 This repository contains comprehensive End-to-End (E2E) testing for a Secure File Sharing Application. It includes both manual and automation testing using the Selenium framework in Java, along with detailed test documentation and reports.
 
 ## 📽️ Demo Video
-👉 Watch Project Demo
+👉 Watch Project Demo https://drive.google.com/file/d/1uVXck3sP49q7OgtXr4hYo6LDCkUNoHuH/view
 
 ## ✅ Project Overview
 This project simulates a real-world QA cycle, covering everything from test planning to bug reporting and automated test execution.
@@ -65,22 +65,23 @@ Copy
 Edit
 secure-file-sharing-e2e/
 │
-├── manual/
+├── manual/                          # All manual testing artifacts
 │   ├── Test Plan for File Sharing Application.docx
 │   ├── Test Plan + Bug report (1).xlsx
 │   ├── Test Summary Report.docx
 │   ├── Secure File Sharing Mind map.jpeg
 │
-├── src/
+├── src/                             # Source folder for automation code
 │   └── test/java/
-│       ├── pages/
-│       ├── tests/
-│       └── utils/
+│       ├── pages/                   # Page Object Model (POM) classes
+│       ├── tests/                   # Test cases for different modules
+│       └── utils/                   # Utility classes (e.g., config, helpers)
 │
-├── screenshots/
-├── test-output/
-├── pom.xml
-└── README.md
+├── screenshots/                     # Screenshots captured during test execution
+├── test-output/                     # TestNG reports and outputs
+├── pom.xml                          # Maven project file for dependencies and config
+└── README.md                        # Project documentation and setup guide
+
 ## 🧠 Key Learnings
 ✅ Implemented Page Object Model (POM) for cleaner and reusable code
 
