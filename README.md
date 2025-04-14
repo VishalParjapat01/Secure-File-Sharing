@@ -23,28 +23,28 @@ This project simulates a real-world QA cycle, covering everything from test plan
 ## 🤖 Automation Testing
 ⚙️ Tech Stack:
 
-Language: Java
+<br>Language: Java
 
-Framework: Selenium WebDriver + TestNG
+<br>Framework: Selenium WebDriver + TestNG
 
-Design Pattern: Page Object Model (POM)
+<br>Design Pattern: Page Object Model (POM)
 
-Page Initialization: Page Factory
+<br>Page Initialization: Page Factory
 
-Build Tool: Maven
+<br>Build Tool: Maven
 
-Version Control: GitHub
+<br>Version Control: GitHub
 
-```
+
 ## 🚀 Automated Features
-✅ Login Functionality
-✅ Signup Functionality
-✅ Dashboard Interactions
-✅ Logout Functionality
-✅ Validations & Alert Handling
-✅ Screenshot Capture on Test Failure
+<br>✅ Login Functionality
+<br>✅ Signup Functionality
+<br>✅ Dashboard Interactions
+<br>✅ Logout Functionality
+<br>✅ Validations & Alert Handling
+<br>✅ Screenshot Capture on Test Failure
 
-```
+
 
 ## 🧪 How to Run
 Clone the repository
@@ -84,11 +84,11 @@ secure-file-sharing-e2e/
 ```
 
 
-```
-## 🧠 Key Learnings
-✅ Implemented Page Object Model (POM) for clean, maintainable code
-✅ Used PageFactory for efficient WebElement initialization
-✅ Practiced assertion handling and screenshot capture on failure
-✅ Simulated a full QA lifecycle: Planning → Execution → Bug Reporting
 
-```
+## 🧠 Key Learnings
+<br>✅ Implemented Page Object Model (POM) for clean, maintainable code
+<br>✅ Used PageFactory for efficient WebElement initialization
+<br>✅ Practiced assertion handling and screenshot capture on failure
+<br>✅ Simulated a full QA lifecycle: Planning → Execution → Bug Reporting
+
+
