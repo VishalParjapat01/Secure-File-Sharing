@@ -65,22 +65,23 @@ Copy
 Edit
 secure-file-sharing-e2e/
 │
-├── manual/                          # All manual testing artifacts
+├── manual/                             # All manual testing artifacts
 │   ├── Test Plan for File Sharing Application.docx
 │   ├── Test Plan + Bug report (1).xlsx
 │   ├── Test Summary Report.docx
 │   ├── Secure File Sharing Mind map.jpeg
 │
-├── src/                             # Source folder for automation code
+├── src/                                # Source folder for automation code
 │   └── test/java/
-│       ├── pages/                   # Page Object Model (POM) classes
-│       ├── tests/                   # Test cases for different modules
-│       └── utils/                   # Utility classes (e.g., config, helpers)
+│       ├── pages/                      # Page Object Model (POM) classes
+│       ├── tests/                      # Automated test cases
+│       └── utils/                      # Utilities like configs, drivers, etc.
 │
-├── screenshots/                     # Screenshots captured during test execution
-├── test-output/                     # TestNG reports and outputs
-├── pom.xml                          # Maven project file for dependencies and config
-└── README.md                        # Project documentation and setup guide
+├── screenshots/                        # Screenshots captured during test execution
+├── test-output/                        # TestNG execution reports
+├── pom.xml                             # Maven build configuration file
+└── README.md                           # Project overview and instructions
+
 
 ## 🧠 Key Learnings
 ✅ Implemented Page Object Model (POM) for cleaner and reusable code
