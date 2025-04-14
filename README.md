@@ -56,22 +56,27 @@ Edit
 mvn clean test
 View the reports in /test-output and screenshots in /screenshots
 
-📁 Project Structure
-Path	Description
-secure-file-sharing-e2e/	Root directory of the project
-├── manual/	Manual testing artifacts
-│ ├── Test Plan for File Sharing Application.docx	Test plan document
-│ ├── Test Plan + Bug report (1).xlsx	Combined plan & bugs
-│ ├── Test Summary Report.docx	Summary report
-│ └── Secure File Sharing Mind map.jpeg	Mind map overview
-├── src/test/java/	Source code for automated tests
-│ ├── pages/	Page Object Model classes
-│ ├── tests/	Test cases
-│ └── utils/	Utility/helper functions
-├── screenshots/	Screenshots from failed test executions
-├── test-output/	TestNG HTML reports
-├── pom.xml	Maven dependencies and configuration
-└── README.md	Project documentation and setup instructions
+secure-file-sharing-e2e/              Root directory of the project
+│
+├── manual/                           Manual testing artifacts
+│   ├── Test Plan for File Sharing Application.docx      Test plan document
+│   ├── Test Plan + Bug report (1).xlsx                  Combined plan & bugs
+│   ├── Test Summary Report.docx                         Summary report
+│   └── Secure File Sharing Mind map.jpeg                Mind map overview
+│
+├── src/test/java/                    Source code for automated tests
+│   ├── pages/                        Page Object Model classes
+│   ├── tests/                        Test case files
+│   └── utils/                        Utility/helper functions
+│
+├── screenshots/                      Screenshots from failed test executions
+├── test-output/                      TestNG HTML reports
+├── pom.xml                           Maven project dependencies
+└── README.md                         Project documentation and setup instructions
+
+
+
+
 🧠 Key Learnings
 ✅ Implemented Page Object Model (POM) for clean, maintainable code
 ✅ Used PageFactory for efficient WebElement initialization
