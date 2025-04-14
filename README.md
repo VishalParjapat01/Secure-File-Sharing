@@ -1,29 +1,26 @@
-# Secure File Sharing - E2E Testing Project
-✅ Project Overview
-This repository contains End-to-End (E2E) testing for the Secure File Sharing App. It includes:
+# 🔐 Secure File Sharing - E2E Testing Project
+This repository contains comprehensive End-to-End (E2E) testing for a Secure File Sharing Application. It includes both manual and automation testing using the Selenium framework in Java, along with detailed test documentation and reports.
 
-📋 Manual Testing Artifacts
+## 📽️ Demo Video
+👉 Watch Project Demo
 
-🤖 Automation Testing using Selenium (Java)
+## ✅ Project Overview
+This project simulates a real-world QA cycle, covering everything from test planning to bug reporting and automated test execution.
 
-🧱 POM Design Pattern + Page Factory
-
-🧪 TestNG Integration
-
-📸 Screenshots included
-
-📌 Manual Testing
+## 📋 Manual Testing Artifacts
 📁 Deliverables:
-Component	Description
-🔹 Test Plan	Strategy, Scope, Test Types & Tools
-🔹 Test Cases	Login, Signup, Dashboard & Logout features - positive/negative
-🔹 Bug Report	Documented with severity, status, and summary
-🔹 Summary Report	Final testing conclusion with status matrix
-🔹 Mind Map	Visual coverage of testing modules
-✅ Manual testing ensured all critical paths like SignUp, Login, and Validation scenarios were verified.
+🔹 Test Plan – Strategy, Scope, Types of Testing, Tools Used
 
-⚙️ Automation Testing
-🔨 Tech Stack:
+🔹 Test Cases – Covering Login, Signup, Dashboard, Logout (Positive & Negative Scenarios)
+
+🔹 Bug Report – Documented with severity, status, and detailed descriptions
+
+🔹 Summary Report – Final test summary with test status matrix
+
+🔹 Mind Map – Visual overview of testing coverage and modules
+
+## 🤖 Automation Testing
+⚙️ Tech Stack:
 Language: Java
 
 Framework: Selenium WebDriver + TestNG
@@ -36,51 +33,59 @@ Build Tool: Maven
 
 Version Control: GitHub
 
-🚀 Features Automated:
-Login Functionality
+## 🚀 Automated Features:
+✅ Login Functionality
 
-Signup Functionality
+✅ Signup Functionality
 
-Dashboard Functionality
+✅ Dashboard Interactions
 
-Logout Functionality
+✅ Logout Functionality
 
-Validations & Alerts
+✅ Validations & Alert Handling
 
-Screenshot Capture on Failure
+✅ Screenshot Capture on Test Failure
 
+🧪 How to Run:
+Clone the repository
 
-# Run with Maven
-mvn clean test
-Test reports and screenshots will be generated under /test-output and /screenshots.
+Navigate to the project directory
 
-📁 Folder Structure
+Run the tests using Maven:
+
 bash
+Copy
+Edit
+mvn clean test
+View the reports in /test-output and screenshots in /screenshots
+
+## 📁 Project Structure
+plaintext
 Copy
 Edit
 secure-file-sharing-e2e/
 │
 ├── manual/
-│   ├── TestPlan.docx
-│   ├── TestCases.xlsx
-│   ├── BugReport.xlsx
-│   ├── SummaryReport.docx
-│   └── MindMap.png
+│   ├── Test Plan for File Sharing Application.docx
+│   ├── Test Plan + Bug report (1).xlsx
+│   ├── Test Summary Report.docx
+│   ├── Secure File Sharing Mind map.jpeg
 │
-├── src/test/java/
-│   ├── pages/
-│   ├── tests/
-│   └── utils/
+├── src/
+│   └── test/java/
+│       ├── pages/
+│       ├── tests/
+│       └── utils/
 │
-│   
+├── screenshots/
+├── test-output/
 ├── pom.xml
 └── README.md
-🧠 Learnings
-Used POM for code reusability and clarity
+## 🧠 Key Learnings
+✅ Implemented Page Object Model (POM) for cleaner and reusable code
 
-Applied PageFactory for element initialization
+✅ Used PageFactory for efficient WebElement initialization
 
-Practiced assertion handling & failure screenshot captures
+✅ Practiced assertion handling and failure screenshot capture
 
-Simulated real-world QA cycle (Test Planning → Bug Reporting)
-
+✅ Simulated a full QA lifecycle: Planning → Execution → Bug Reporting
