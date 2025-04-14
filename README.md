@@ -1,14 +1,14 @@
-🔐 Secure File Sharing - E2E Testing Project
+# 🔐 Secure File Sharing - E2E Testing Project
 This repository contains comprehensive End-to-End (E2E) testing for a Secure File Sharing Application. It includes both manual and automation testing using the Selenium framework in Java, along with detailed test documentation and reports.
 
-📽️ Demo Video
+## 📽️ Demo Video
 👉 Watch Project Demo  https://drive.google.com/file/d/1uVXck3sP49q7OgtXr4hYo6LDCkUNoHuH/view?usp=sharing
 
-✅ Project Overview
+## ✅ Project Overview
 This project simulates a real-world QA cycle, covering everything from test planning to bug reporting and automated test execution.
 
-📋 Manual Testing Artifacts
-📁 Deliverables:
+## 📋 Manual Testing Artifacts
+## 📁 Deliverables:
 
 🔹 Test Plan – Strategy, Scope, Types of Testing, Tools Used
 
@@ -20,7 +20,7 @@ This project simulates a real-world QA cycle, covering everything from test plan
 
 🔹 Mind Map – Visual overview of testing coverage and modules
 
-🤖 Automation Testing
+## 🤖 Automation Testing
 ⚙️ Tech Stack:
 
 Language: Java
@@ -35,7 +35,8 @@ Build Tool: Maven
 
 Version Control: GitHub
 
-🚀 Automated Features
+```
+## 🚀 Automated Features
 ✅ Login Functionality
 ✅ Signup Functionality
 ✅ Dashboard Interactions
@@ -43,7 +44,9 @@ Version Control: GitHub
 ✅ Validations & Alert Handling
 ✅ Screenshot Capture on Test Failure
 
-🧪 How to Run
+```
+
+## 🧪 How to Run
 Clone the repository
 
 Navigate to the project directory
@@ -82,7 +85,7 @@ secure-file-sharing-e2e/
 
 
 ```
-🧠 Key Learnings
+## 🧠 Key Learnings
 ✅ Implemented Page Object Model (POM) for clean, maintainable code
 ✅ Used PageFactory for efficient WebElement initialization
 ✅ Practiced assertion handling and screenshot capture on failure
