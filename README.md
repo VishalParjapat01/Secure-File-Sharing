@@ -2,7 +2,7 @@
 This repository contains comprehensive End-to-End (E2E) testing for a Secure File Sharing Application. It includes both manual and automation testing using the Selenium framework in Java, along with detailed test documentation and reports.
 
 📽️ Demo Video
-👉 Watch Project Demo
+👉 Watch Project Demo  https://drive.google.com/file/d/1uVXck3sP49q7OgtXr4hYo6LDCkUNoHuH/view?usp=sharing
 
 ✅ Project Overview
 This project simulates a real-world QA cycle, covering everything from test planning to bug reporting and automated test execution.
@@ -56,31 +56,36 @@ Edit
 mvn clean test
 View the reports in /test-output and screenshots in /screenshots
 
+## 📁 Project Structure
+```
 secure-file-sharing-e2e/
 │
-├── manual/                       # Manual testing artifacts
+├── manual/                          # All manual testing artifacts
 │   ├── Test Plan for File Sharing Application.docx
 │   ├── Test Plan + Bug report (1).xlsx
 │   ├── Test Summary Report.docx
-│   └── Secure File Sharing Mind map.jpeg
+│   ├── Secure File Sharing Mind map.jpeg
 │
-├── src/test/java/               # Automation source code
-│   ├── pages/
-│   ├── tests/
-│   └── utils/
+├── src/                             # Source folder for automation code
+│   └── test/java/
+│       ├── pages/                   # Page Object Model (POM) classes
+│       ├── tests/                   # Test cases for different modules
+│       └── utils/                   # Utility classes (e.g., config, helpers)
 │
-├── screenshots/                 # Screenshots from test failures
-├── test-output/                 # TestNG output reports
-├── pom.xml                      # Maven config file
-└── README.md                    # Project documentation
+├── screenshots/                     # Screenshots captured during test execution
+├── test-output/                     # TestNG reports and outputs
+├── pom.xml                          # Maven project file for dependencies and config
+└── README.md                        # Project documentation and setup guide
 
 
+```
 
 
-
+```
 🧠 Key Learnings
 ✅ Implemented Page Object Model (POM) for clean, maintainable code
 ✅ Used PageFactory for efficient WebElement initialization
 ✅ Practiced assertion handling and screenshot capture on failure
 ✅ Simulated a full QA lifecycle: Planning → Execution → Bug Reporting
 
+```
