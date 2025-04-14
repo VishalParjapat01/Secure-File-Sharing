@@ -63,24 +63,20 @@ View the reports in /test-output and screenshots in /screenshots
 plaintext
 Copy
 Edit
-secure-file-sharing-e2e/
-│
-├── manual/                          # Manual testing artifacts
-│   ├── Test Plan for File Sharing Application.docx
-│   ├── Test Plan + Bug report (1).xlsx
-│   ├── Test Summary Report.docx
-│   ├── Secure File Sharing Mind map.jpeg
-│
-├── src/                             # Automation code
-│   └── test/java/
-│       ├── pages/                   # Page Object Model classes
-│       ├── tests/                   # Test cases
-│       └── utils/                   # Utility functions
-│
-├── screenshots/                     # Captured test execution screenshots
-├── test-output/                     # TestNG reports
-├── pom.xml                          # Maven configuration
-└── README.md                        # Project documentation
+secure-file-sharing-e2e/	Root directory of the project
+├── manual/	Manual testing artifacts
+│ ├── Test Plan for File Sharing Application.docx	Test plan document
+│ ├── Test Plan + Bug report (1).xlsx	Combined test plan and bug report
+│ ├── Test Summary Report.docx	Summary report of test execution
+│ └── Secure File Sharing Mind map.jpeg	Mind map of the application
+├── src/test/java/	Source code for automated tests
+│ ├── pages/	Page Object Model (POM) classes
+│ ├── tests/	Test case files
+│ └── utils/	Utility/helper functions
+├── screenshots/	Screenshots captured during test runs
+├── test-output/	TestNG output reports
+├── pom.xml	Maven project file for dependencies
+└── README.md	Project documentation and instructions
 
 
 ## 🧠 Key Learnings
