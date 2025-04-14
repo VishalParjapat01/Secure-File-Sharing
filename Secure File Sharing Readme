@@ -49,9 +49,6 @@ Validations & Alerts
 
 Screenshot Capture on Failure
 
-# Navigate into project
-cd secure-file-sharing-e2e
-
 # Run with Maven
 mvn clean test
 Test reports and screenshots will be generated under /test-output and /screenshots.
