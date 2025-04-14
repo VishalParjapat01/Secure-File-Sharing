@@ -1,4 +1,4 @@
-📂 #Secure File Sharing - E2E Testing Project
+📂 # Secure File Sharing - E2E Testing Project
 ✅ Project Overview
 This repository contains End-to-End (E2E) testing for the Secure File Sharing App. It includes:
 
