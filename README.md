@@ -56,23 +56,24 @@ Edit
 mvn clean test
 View the reports in /test-output and screenshots in /screenshots
 
-secure-file-sharing-e2e/              Root directory of the project
+secure-file-sharing-e2e/
 │
-├── manual/                           Manual testing artifacts
-│   ├── Test Plan for File Sharing Application.docx      Test plan document
-│   ├── Test Plan + Bug report (1).xlsx                  Combined plan & bugs
-│   ├── Test Summary Report.docx                         Summary report
-│   └── Secure File Sharing Mind map.jpeg                Mind map overview
+├── manual/                       # Manual testing artifacts
+│   ├── Test Plan for File Sharing Application.docx
+│   ├── Test Plan + Bug report (1).xlsx
+│   ├── Test Summary Report.docx
+│   └── Secure File Sharing Mind map.jpeg
 │
-├── src/test/java/                    Source code for automated tests
-│   ├── pages/                        Page Object Model classes
-│   ├── tests/                        Test case files
-│   └── utils/                        Utility/helper functions
+├── src/test/java/               # Automation source code
+│   ├── pages/
+│   ├── tests/
+│   └── utils/
 │
-├── screenshots/                      Screenshots from failed test executions
-├── test-output/                      TestNG HTML reports
-├── pom.xml                           Maven project dependencies
-└── README.md                         Project documentation and setup instructions
+├── screenshots/                 # Screenshots from test failures
+├── test-output/                 # TestNG output reports
+├── pom.xml                      # Maven config file
+└── README.md                    # Project documentation
+
 
 
 
