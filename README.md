@@ -65,13 +65,14 @@ Copy
 Edit
 secure-file-sharing-e2e/
 │
-├── manual/                             # All manual testing artifacts
+├── manual/                                                                                                                                                                                                                                  
+  # All manual testing artifacts
 │   ├── Test Plan for File Sharing Application.docx
 │   ├── Test Plan + Bug report (1).xlsx
 │   ├── Test Summary Report.docx
 │   ├── Secure File Sharing Mind map.jpeg
-│
-├── src/                                # Source folder for automation code
+# Source folder for automation code
+├── src/           
 │   └── test/java/
 │       ├── pages/                      # Page Object Model (POM) classes
 │       ├── tests/                      # Automated test cases
