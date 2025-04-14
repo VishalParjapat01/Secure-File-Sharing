@@ -16,7 +16,7 @@ This repository contains End-to-End (E2E) testing for the Secure File Sharing Ap
 📁 Deliverables:
 Component	Description
 🔹 Test Plan	Strategy, Scope, Test Types & Tools
-🔹 Test Cases	Login & Signup features - positive/negative
+🔹 Test Cases	Login, Signup, Dashboard & Logout features - positive/negative
 🔹 Bug Report	Documented with severity, status, and summary
 🔹 Summary Report	Final testing conclusion with status matrix
 🔹 Mind Map	Visual coverage of testing modules
@@ -41,23 +41,13 @@ Login Functionality
 
 Signup Functionality
 
+Dashboard Functionality
+
+Logout Functionality
+
 Validations & Alerts
 
 Screenshot Capture on Failure
-
-📸 Sample Screenshots
-🔐 Login Page
-
-📝 Signup Page
-
-You can find more screenshots in the screenshots/ folder.
-
-🧪 Test Execution
-bash
-Copy
-Edit
-# Clone the project
-git clone https://github.com/your-username/secure-file-sharing-e2e.git
 
 # Navigate into project
 cd secure-file-sharing-e2e
@@ -100,5 +90,3 @@ Practiced assertion handling & failure screenshot captures
 Simulated real-world QA cycle (Test Planning → Bug Reporting)
 
 
-📬 Contact
-For queries or feedback, connect on LinkedIn or raise an issue in the repo.
