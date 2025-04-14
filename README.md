@@ -1,14 +1,15 @@
-# 🔐 Secure File Sharing - E2E Testing Project
+🔐 Secure File Sharing - E2E Testing Project
 This repository contains comprehensive End-to-End (E2E) testing for a Secure File Sharing Application. It includes both manual and automation testing using the Selenium framework in Java, along with detailed test documentation and reports.
 
-## 📽️ Demo Video
-👉 Watch Project Demo https://drive.google.com/file/d/1uVXck3sP49q7OgtXr4hYo6LDCkUNoHuH/view
+📽️ Demo Video
+👉 Watch Project Demo
 
-## ✅ Project Overview
+✅ Project Overview
 This project simulates a real-world QA cycle, covering everything from test planning to bug reporting and automated test execution.
 
-## 📋 Manual Testing Artifacts
+📋 Manual Testing Artifacts
 📁 Deliverables:
+
 🔹 Test Plan – Strategy, Scope, Types of Testing, Tools Used
 
 🔹 Test Cases – Covering Login, Signup, Dashboard, Logout (Positive & Negative Scenarios)
@@ -19,8 +20,9 @@ This project simulates a real-world QA cycle, covering everything from test plan
 
 🔹 Mind Map – Visual overview of testing coverage and modules
 
-## 🤖 Automation Testing
+🤖 Automation Testing
 ⚙️ Tech Stack:
+
 Language: Java
 
 Framework: Selenium WebDriver + TestNG
@@ -33,20 +35,15 @@ Build Tool: Maven
 
 Version Control: GitHub
 
-## 🚀 Automated Features:
+🚀 Automated Features
 ✅ Login Functionality
-
 ✅ Signup Functionality
-
 ✅ Dashboard Interactions
-
 ✅ Logout Functionality
-
 ✅ Validations & Alert Handling
-
 ✅ Screenshot Capture on Test Failure
 
-🧪 How to Run:
+🧪 How to Run
 Clone the repository
 
 Navigate to the project directory
@@ -59,31 +56,25 @@ Edit
 mvn clean test
 View the reports in /test-output and screenshots in /screenshots
 
-## 📁 Project Structure
-plaintext
-Copy
-Edit
+📁 Project Structure
+Path	Description
 secure-file-sharing-e2e/	Root directory of the project
 ├── manual/	Manual testing artifacts
 │ ├── Test Plan for File Sharing Application.docx	Test plan document
-│ ├── Test Plan + Bug report (1).xlsx	Combined test plan and bug report
-│ ├── Test Summary Report.docx	Summary report of test execution
-│ └── Secure File Sharing Mind map.jpeg	Mind map of the application
+│ ├── Test Plan + Bug report (1).xlsx	Combined plan & bugs
+│ ├── Test Summary Report.docx	Summary report
+│ └── Secure File Sharing Mind map.jpeg	Mind map overview
 ├── src/test/java/	Source code for automated tests
-│ ├── pages/	Page Object Model (POM) classes
-│ ├── tests/	Test case files
+│ ├── pages/	Page Object Model classes
+│ ├── tests/	Test cases
 │ └── utils/	Utility/helper functions
-├── screenshots/	Screenshots captured during test runs
-├── test-output/	TestNG output reports
-├── pom.xml	Maven project file for dependencies
-└── README.md	Project documentation and instructions
-
-
-## 🧠 Key Learnings
-✅ Implemented Page Object Model (POM) for cleaner and reusable code
-
+├── screenshots/	Screenshots from failed test executions
+├── test-output/	TestNG HTML reports
+├── pom.xml	Maven dependencies and configuration
+└── README.md	Project documentation and setup instructions
+🧠 Key Learnings
+✅ Implemented Page Object Model (POM) for clean, maintainable code
 ✅ Used PageFactory for efficient WebElement initialization
-
-✅ Practiced assertion handling and failure screenshot capture
-
+✅ Practiced assertion handling and screenshot capture on failure
 ✅ Simulated a full QA lifecycle: Planning → Execution → Bug Reporting
+
